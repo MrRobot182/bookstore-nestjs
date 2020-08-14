@@ -1,0 +1,13 @@
+{
+    "type": "postgres",
+    "username": "postgres",
+    "password": "mysecretpassword",
+    "host": "172.17.0.1",
+    "port": 5432,
+    "database": "bookstore",
+    "entities": ["src/**/**/*.entity{.ts,.js}"],
+    "migrations": ["src/database/migrations/*{.ts,.js}"],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+}
